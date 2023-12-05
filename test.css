@@ -1,0 +1,26 @@
+@media screen and (min-width: 801px){
+    body{
+        background-color: aliceblue;
+    }
+    .zoom {
+        transition: .2s;
+        width: 120%;
+        height: 120%;
+    }
+    .zoom:hover{
+        transform: scale(1.2);
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color: aqua;
+    }   
+    .zoom {
+        transition: .2s;
+        width: 120%;
+        height: 120%;
+    }
+    .zoom:hover{
+        transform: scale(1.2);
+    }
+}

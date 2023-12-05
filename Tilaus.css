@@ -1,0 +1,328 @@
+@media screen and (max-width: 500px){
+    body{
+        background-image: url("Kuvat/taustaMobile.jpg");
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: cover;
+    }
+    
+    h1{
+        font-size: 23px;
+        color: #00ffa0;
+        text-shadow: 1.5px 1.5px 1.5px #000000;
+        font-family: 'Exo 2', sans-serif;
+    }
+    h2{
+        font-size: 14px;
+        text-align: center;
+        color: #00ffa0;
+        text-shadow: 1.5px 1.5px 1.5px #000000;
+        font-family: 'Exo 2', sans-serif;
+    }
+    h3{
+        font-size: 15px;
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+    }
+    a{
+        cursor: pointer;
+    }
+    label{
+        color: black;
+        font-size: 12px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    input{
+        width: 200px;
+        font-size: 10px;
+        margin-bottom: 20px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    p{
+        color: #000000;
+        font-size: 12px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    textarea{
+        font-size: 10px;
+        margin-bottom: 25px;
+        resize: none;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .Otsikko{
+        margin-top: 20px;
+    }
+    .Teksti{
+        line-height: 22.5px;
+        width: 350px;
+    }
+    .reset{
+        width: 70px;
+        background-color: lightcoral;
+        color: #000000;
+    }
+    .submit{
+        width: 70px;
+        background-color: lightgreen;
+        color: #000000;
+    }
+    .reset:hover{
+        background-color: rgb(213, 114, 114);
+    }
+    .submit:hover{
+        background-color: rgb(120, 200, 120);
+    }
+    .etusivu{
+        width: 70px;
+    }
+
+    .radio{
+        margin-right: -90px;
+    }
+    
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo{
+        margin-top: 25px;
+        width: 275px;
+    }
+    
+    .nav{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 37.5px;
+        width: 370px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .berryimages{
+        display: none;
+        margin-top: 50px;
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+    }
+    .berryimage{
+        display: none;
+        width: 210px;
+    }
+    
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 75px;
+        background-image: url("Kuvat/Puutausta.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        width: 370px;
+        height: 1100px;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 20px;
+        background-color: white;
+        width: 350px;
+        height: 1150;
+    }
+
+    .zoom{
+        transition: transform .1s;
+        width: 120%;
+        height: 120%;
+    }
+    .zoom:hover{
+        transform: scale(1.2);
+    }
+
+    .copyrightText{
+        margin-top: 15px;
+        font-size: 7px;
+        color: rgb(255, 104, 104);
+        opacity: .8;
+        width: 115px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+@media screen and (min-width: 501px){
+    body{
+        background-image: url("Kuvat/tausta.jpg");
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: cover;
+    }
+    
+    h1{
+        font-size: 45px;
+        color: #00ffa0;
+        text-shadow: 3px 3px 3px #000000;
+        font-family: 'Exo 2', sans-serif;
+    }
+    h2{
+        font-size: 28px;
+        text-align: center;
+        color: #00ffa0;
+        text-shadow: 3px 3px 3px #000000;
+        font-family: 'Exo 2', sans-serif;
+    }
+    h3{
+        font-size: 30px;
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+    }
+    a{
+        cursor: pointer;
+    }
+    label{
+        color: black;
+        font-size: 24px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    input{
+        width: 400px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    p{
+        color: #000000;
+        font-size: 24px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    textarea{
+        font-size: 20px;
+        margin-bottom: 50px;
+        resize: none;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .Otsikko{
+        margin-top: 40px;
+    }
+    .Teksti{
+        line-height: 45px;
+        width: 650px;
+    }
+    .reset{
+        width: 140px;
+        background-color: lightcoral;
+        color: #000000;
+    }
+    .submit{
+        width: 140px;
+        background-color: lightgreen;
+        color: #000000;
+    }
+    .reset:hover{
+        background-color: rgb(213, 114, 114);
+    }
+    .submit:hover{
+        background-color: rgb(120, 200, 120);
+    }
+    .etusivu{
+        width: 140px;
+    }
+    .radio{
+        margin-right: -180px;
+    }
+    
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo{
+        margin-top: 50px;
+        width: 550px;
+    }
+    
+    .nav{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 75px;
+        width: 780px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .berryimages{
+        margin-top: 100px;
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+    }
+    .berryimage{
+        width: 420px;
+    }
+    
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 150px;
+        background-image: url("Kuvat/Puutausta.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        width: 800px;
+        height: 2050px;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 40px;
+        background-color: white;
+        width: 700px;
+        height: 1270px;
+    }
+
+    .zoom{
+        transition: transform .1s;
+        width: 120%;
+        height: 120%;
+    }
+    .zoom:hover{
+        transform: scale(1.2);
+    }
+
+    .copyrightText{
+        margin-top: 30px;
+        font-size: 15px;
+        color: rgb(255, 104, 104);
+        opacity: .8;
+        width: 230px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .logoAnimation{
+        animation-name: logo;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes logo {
+        from {transform: scale(1);}
+        to {transform: scale(0.8);}
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohimuan Marjafarmi</title>
+    <link rel="stylesheet" href="Tilaus.css">
+    <link rel="icon" type="image/x-icon" href="Kuvat/Favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+        Etusivu = () => {
+            window.location.href = "/index.html";
+        }
+    </script>
+
+    <img src="Kuvat/Ohimaanmarjatila-logo.png" alt="Yrityksen logo" class="center logo logoAnimation">
+    <div class="nav center">
+        <a href="index.html"><h3 class="zoom">Etusivu</h3></a>
+        <a href="tuotteet.html"><h3 class="zoom">Tuotteet</h3></a>
+        <a><h3 style="color: #00ffa0">Tilaus</h3></a>
+        <a href="yhteystiedot.html"><h3 class="zoom">Yhteystiedot</h3></a>
+    </div>
+
+    <div class="berryimages center">
+        <img src="Kuvat/Mustikka.jpg" alt="Kuva mustikoista" class="berryimage">
+        <img src="Kuvat/Vadelma.jpg" alt="Kuva vadelmoista" class="berryimage">
+        <img src="Kuvat/mustaherukka.jpg" alt="Kuva mustaherukoista" class="berryimage">
+    </div>
+
+    <div class="textbox center">
+        <h1 class="Otsikko">Tilaaminen</h1>
+        <h2 class="Teksti">Tilaukset toimitetaan Raahen
+        alueella maanantaisin ja keskiviikkoisin kello 15-18 ja Oulaisten alueella
+        tiistaisin ja torstaisin kello 15-18. <br> <br>
+        Otamme yhteyttä teihin puhelimitse ja varmistamme sopivan ajan. <br>
+        Jos tahdotte peruuttaa tai muuttaa jo tehtyä tilausta, lähettäkää
+        sähköpostia osoitteeseen : ohimaanmarjatila@gmail.com <br> <br>
+        Tee tilaus tästä:</h2>
+        <div class="form center">
+            <h1>Tilauslomake</h1>
+            <form>
+                <label for="name">Nimi:</label><br>
+                <input type="text" name="name" id="name" required> <br>
+                <label for="phoneNumber">Puhelinnumero:</label><br>
+                <input type="text" name="phoneNumber" id="phoneNumber" required><br>
+                <label for="email">Sähköpostiosoite:</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="pickupDate">Milloin haluat tilauksen noutaa/toimitettuna?:</label><br>
+                <input type="date" name="pickupDate" id="pickupDate" required><br>
+                <p>Haluatko tilauksellesi toimituksen?:</p>
+                <input type="radio" name="delivery" id="delivery1" value="Kyllä" class="radio">
+                <label for="delivery1">Kyllä</label><br>
+                <input type="radio" name="delivery" id="delivery2" value="En" class="radio">
+                <label for="delivery2">En</label><br> 
+                <p>Jos vastasit äsköiseen kyllä</p>
+                <label for="address">Toimitusosoite:</label><br>
+                <input type="text" name="address" id="address"><br>
+                <label for="order" >Mitä tuotteita haluat tilata ja kuinka paljon?:</label> <br>
+                <textarea name="order" id="order" cols="40" rows="10" required></textarea> <br>
+                <input type="submit" value="Lähetä tilaus" class="submit">
+                <input type="reset" value="Peruuta tilaus" class="reset">
+                <input type="button" onclick="Etusivu()" value="Etusivu" class="etusivu">
+            </form>
+        </div>
+    </div>
+    <div class="center">
+        <h2 class="copyrightText center">Copyright (C) 2023 Lassi Määttä</h2>
+    </div>
+</body>
+</html>
